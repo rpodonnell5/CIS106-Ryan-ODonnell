@@ -6,3 +6,4 @@ I wanted to take this class to learn the fundamentals of computer programming an
 
 ## Assignment 2
 
+I decided to use Python as the first programming language to commit learning. After reading through everyones discussions posts and watching some Youtube video blogs about where to start for learning computer science, Python seemed the best choice for me. Its going to take me some time to master the fundamentals before I get into the more technical languages like C++. I intend on learning other languages in the future, and I felt as if Python would set me up best to give me the foundation I need to keep moving foward in learning computer science after this course. I used GDB Online and then downloaded Thonny, as recommended, to test the Hello Name program. 
