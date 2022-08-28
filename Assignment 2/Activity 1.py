@@ -1,4 +1,4 @@
-# This program displays "Hello world!"
+# This program displays "Hello Ryan!"
 # 
 # Input:
 # 
@@ -10,5 +10,5 @@
 # 
 # Output:
 # 
-# Hello world!
-print("Hello World!")
+# Hello Ryan!
+print("Hello Ryan!")
