@@ -11,7 +11,7 @@
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <comment text="This program displays &quot;Hello Ryan!&quot;&#13;&#10;&#13;&#10;Input:&#13;&#10;&#13;&#10;    None&#13;&#10;&#13;&#10;Process:&#13;&#10;&#13;&#10;    None&#13;&#10;&#13;&#10;Output:&#13;&#10;&#13;&#10;    Hello Ryan!"/>
+            <comment text="This program displays &quot;Hello Ryan!&quot;"/>
             <output expression="&quot;Hello Ryan!&quot;" newline="True"/>
         </body>
     </function>
