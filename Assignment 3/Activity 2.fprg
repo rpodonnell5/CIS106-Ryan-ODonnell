@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ryan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-03 08:05:13 PM"/>
+        <attribute name="created" value="UnlhbjtERVNLVE9QLThBSzRFREI7MjAyMi0wOS0wMzswNzozNzo1NSBQTTsyNzMz"/>
+        <attribute name="edited" value="UnlhbjtERVNLVE9QLThBSzRFREI7MjAyMi0wOS0wMzswODowNToxMyBQTTsyOzI4MzI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="This program converts an inputted age into approximate total lived months, days, hours, minutes, and secons"/>
+            <declare name="age" type="Real" array="False" size=""/>
+            <declare name="months" type="Real" array="False" size=""/>
+            <declare name="days" type="Real" array="False" size=""/>
+            <declare name="hours" type="Real" array="False" size=""/>
+            <declare name="minutes" type="Real" array="False" size=""/>
+            <declare name="seconds" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter age&quot;" newline="True"/>
+            <input variable="age"/>
+            <assign variable="months" expression="age*12"/>
+            <assign variable="days" expression="age*365"/>
+            <assign variable="hours" expression="age*365*24"/>
+            <assign variable="minutes" expression="age*365*24*60"/>
+            <assign variable="seconds" expression="age*365*24*60*60"/>
+            <output expression="age &amp; &quot;age is&quot; &amp; months &amp; &quot;months&quot; &amp; days &amp; &quot;days&quot; &amp; hours &amp; &quot;hours&quot; &amp; minutes &amp; &quot;minutes&quot; &amp; seconds &amp; &quot;seconds&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
