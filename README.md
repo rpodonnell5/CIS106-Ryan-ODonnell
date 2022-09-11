@@ -11,3 +11,7 @@ I decided to use Python as the first programming language to commit learning. Af
 ## Assignment 3
 
 This was the first time I've ever made some kind of program to input a value to get some kind of desired mathematical result. I know this is the barebones setting for a computer program, but it felt good to make something like this work. It took me way longer than I thought it would or should, but in the end I was able to make it work. Practicing and working through the error codes are important for me to better get a grasp on these applications and functions. The math part of things is easy, but putting it into the computer to make it understand what I want it to do is a real challenge for me for what I know now. I look foward to practicing these skills more to learn how to perform more intese and useful functions in the future. 
+
+## Assignment 4
+
+I did my best to take the lessons I learned and struggled with to improve and streamline the homework for this week. Instead of using Flowgorithm this week, I made went straight to the IDE to type out the code. It hit me during the assignment that it's really going to take me a long time until I get the hang of python and how important it's going to be to keep practicing. It really feels like a different language. I'm looking forward to challenging myself and using the references less and less for basic code structuring.  
