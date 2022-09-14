@@ -1,14 +1,14 @@
-This program converts a user's age in years to months, days, hours, and seconds.
+Program Plan Overview
 
+This program converts an input distance in miles to its equivalent in yards, to feet, and to inches.
 Input:
-    Display prompt for user's age
-    Get age in years
-
+    Display prompt
+    Get distance in miles
 Process:
-    Convert users age in years into months
-    Convert users age in years into days
-    Convert users age in years into hours
-    Convert users age in years into and seconds
-
+    Convert distance in miles to yards
+    Convert distance in miles to feet
+    Convert distance in miles to inches
 Output:
-    Display user's age as months, days, hours, and seconds
+    Display distance in miles to yards
+    Display distance in miles to feet
+    Display distance in miles to inches
