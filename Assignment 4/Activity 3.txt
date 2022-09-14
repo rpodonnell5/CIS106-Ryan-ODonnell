@@ -1,13 +1,16 @@
 Program Plan Overview
 
 This program converts an input distance in miles to its equivalent in yards, to feet, and to inches.
+
 Input:
     Display prompt
     Get distance in miles
+
 Process:
     Convert distance in miles to yards
     Convert distance in miles to feet
     Convert distance in miles to inches
+
 Output:
     Display distance in miles to yards
     Display distance in miles to feet
