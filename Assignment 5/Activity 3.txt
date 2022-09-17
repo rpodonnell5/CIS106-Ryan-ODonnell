@@ -1,0 +1,50 @@
+This program converts an input distance in miles to the same distance in yards, feet, and inches
+
+Main Program:
+    Get distance in miles
+    Calculate distance in yards, feet, and inches
+    Display Result
+
+Get distance in miles
+    Parameters:
+        None
+    Process:
+        Display Prompt
+        Get distance in miles
+    Return Value:
+        distance in miles
+        
+Calculate distance in yards
+    Parameters:
+        distance in miles
+    Process:
+        Convert distance in miles to distance in yards
+    Return Value:
+        distance in yards
+        
+Calculate distance in feet
+    Parameters:
+        distance in miles
+    Process:
+        Convert distance in miles to distance in feet
+    Return Value:
+        distance in feet   
+        
+Calculate distance in inches
+    Parameters:
+        distance in miles
+    Process:
+        Convert distance in miles to distance in inches
+    Return Value:
+        distance in inches
+        
+Display Result
+    Parameters:
+        distance in miles
+        distance in yards
+        distance in feet
+        distance in inches
+    Process:
+        Display distance in miles, yards, feet, and inches
+    Return Value:
+        None
