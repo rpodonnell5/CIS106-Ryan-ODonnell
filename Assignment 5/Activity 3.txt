@@ -2,7 +2,9 @@ This program converts an input distance in miles to the same distance in yards, 
 
 Main Program:
     Get distance in miles
-    Calculate distance in yards, feet, and inches
+    Calculate distance in yards
+    Calculate distance in feet
+    Calculate distance in inches
     Display Result
 
 Get distance in miles
