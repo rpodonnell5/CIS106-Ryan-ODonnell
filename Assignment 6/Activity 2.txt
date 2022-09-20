@@ -1,0 +1,62 @@
+This program converts an input age in years to the same age in months, days, hours, and seconds
+
+Main Program:
+    Get age in years
+    Calculate age in months
+    Calculate age in days
+    Calculate age in hours
+    Calculate age in seconds
+    Display Result
+
+Get age in years
+    Parameters:
+        None
+    Process:
+        Display Prompt
+        Get age in years
+    Return Value:
+        age in years
+        
+Calculate age in months
+    Parameters:
+        age in months
+    Process:
+        Convert age in years to age in months
+    Return Value:
+        age in months
+        
+Calculate age in days
+    Parameters:
+        age in years
+    Process:
+        Convert age in years to age in days
+    Return Value:
+        age in days   
+        
+Calculate age in hours
+    Parameters:
+        age in years
+    Process:
+        Convert age in years to age in hours
+    Return Value:
+        age in hours
+          
+Calculate age in seconds
+    Parameters:
+        age in years
+    Process:
+        Convert age in years to age in seconds
+    Return Value:
+        age in seconds
+
+Display Result
+    Parameters:
+        age in years
+        age in months
+        age in days
+        age in hours
+        age in seconds
+    Process:
+        Display age in years, months, days, hours, and seconds
+    Return Value:
+        None
