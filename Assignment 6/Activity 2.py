@@ -1,6 +1,7 @@
 # Main
 # This program converts an input age in years to the same age in months, days, hours, and seconds.
-# References: #https://harpercollege.pressbooks.pub/programmingfundamentals
+# References:
+# https://harpercollege.pressbooks.pub/programmingfundamentals
 
 def get_years():
     print("Enter Age in years:")
@@ -9,22 +10,22 @@ def get_years():
     return years
 
 def calculate_months(years):
-    months = years*12
+    months = years * 12
     
     return months
 
 def calculate_days(years):
-    days = years*365
+    days = years * 365
     
     return days
 
 def calculate_hours(years):
-    hours = years*365*24
+    hours = years * 365 * 24
     
     return hours
 
 def calculate_seconds(years):
-    seconds = years*365*24*60*60
+    seconds = years * 365 * 24 * 60 * 60
     
     return seconds
 
