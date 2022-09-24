@@ -1,9 +1,6 @@
-#This program asks the user for an age in years
-#converts the given age in years to months, days, hours, and seconds
-#and displays the results.
-#
-#References:
-#https://harpercollege.pressbooks.pub/programmingfundamentals/chapter/python-examples-3/
+#Main
+#This program asks the user for an age in years converts the given age in years to months, days, hours, and seconds and displays the results.
+#References: #https://harpercollege.pressbooks.pub/programmingfundamentals/chapter/python-examples-3/
 
 def get_years():
     print("Enter Age in years:")
@@ -27,11 +24,7 @@ def calculate_seconds(years):
     return seconds
 
 def display_result(years, months, days, hours, seconds):
-    print(str(years) + " Years is approximately equal to " +
-        str(months) + " Months, " +
-        str(days) + " Days, " +
-        str(hours) + " Hours, and " +
-        str(seconds) + " seconds.")
+    print(str(years) + " Years is approximately equal to " + str(months) + " Months, " + str(days) + " Days, " + str(hours) + " Hours, and " + str(seconds) + " seconds.")
 
 def main():
     years = get_years()
