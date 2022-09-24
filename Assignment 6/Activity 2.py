@@ -1,5 +1,6 @@
 # Main
-# This program converts an input age in years to the same age in months, days, hours, and seconds.
+# This program converts an input age in years
+# into the same age in months, days, hours, and seconds.
 # References:
 # https://harpercollege.pressbooks.pub/programmingfundamentals
 
