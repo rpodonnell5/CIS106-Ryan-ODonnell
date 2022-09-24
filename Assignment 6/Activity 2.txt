@@ -19,7 +19,7 @@ Get age in years
         
 Calculate age in months
     Parameters:
-        age in months
+        age in years
     Process:
         Convert age in years to age in months
     Return Value:
