@@ -21,3 +21,5 @@ This assignment opened my point-of-view of how Flowgorithm can be used to better
 
 ## Assignment 6
 For this programming session, I noticed how Flowgorithm had a different formatting style than what was being displayed by the textbook for how I should be writing each function and to include the order. It’s interesting to see how both can work to generate the end results even though their code outlines are different. It makes sense when look at the two activity modules side-by-side which format is easier to decipher and how the functions are being utilized throughout the entire program. I expect moving forward that there’s going to be a specific formatting structure for Python that’s going to be expected as well as design format for which part comes first. For now, I’m going to be going off the textbook as my primary reference for how it should be set up. 
+
+## Assignment 7
