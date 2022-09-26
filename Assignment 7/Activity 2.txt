@@ -1,22 +1,27 @@
 Main Program
+    Get Age in years
     Get Choice
     Either:
-        Get age in years
         Calculate age in months
         Display Result
     Or:
-        Get age in years
         Calculate age in days
         Display Result
     Or:
-        Get age in years
         Calculate age in hours
         Display Result
     Or:
-        Get age in years
         Calculate age in seconds
         Display Result
-    
+Get Age
+    Parameters:
+        Years
+    Process:
+        Display prompt
+        Get age
+    Return Value:
+        Age in years 
+        
 Get Choice
     Parameters:
         None
@@ -25,15 +30,6 @@ Get Choice
         Get choice of months, days, hours, or seconds conversion
     Return Value:
         Choice
-    
-Get Age
-    Parameters:
-        Label (months, days, hours, or seconds)
-    Process:
-        Display prompt with label
-        Get age
-    Return Value:
-        Age
     
 Calculate months
     Parameters:
@@ -69,11 +65,11 @@ Calculate seconds
 
 Display Result
     Parameters:
-        Input age in years
-        From label (months, days, hours, or seconds)
+        Input age
+        From years
         Output age
-        To label (months, days, hours, or seconds)
+        To months, days, hours, or seconds
     Process:
-        Display ages and labels
+        Display converted age
     Return Value:
         None       
