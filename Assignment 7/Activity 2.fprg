@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ryan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-02 05:35:55 PM"/>
+        <attribute name="created" value="UnlhbjtERVNLVE9QLThBSzRFREI7MjAyMi0xMC0wMjsxMTowODoxMSBBTTsyNjk0"/>
+        <attribute name="edited" value="UnlhbjtERVNLVE9QLThBSzRFREI7MjAyMi0xMC0wMjswNTozNTo1NSBQTTszOzI4MzA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="years" type="Real" array="False" size=""/>
+            <assign variable="years" expression="GetAge()"/>
+            <declare name="choice" type="String" array="False" size=""/>
+            <assign variable="choice" expression="GetChoice()"/>
+            <if expression="choice = &quot;Months&quot; or choice = &quot;months&quot;">
+                <then>
+                    <declare name="months" type="Real" array="False" size=""/>
+                    <assign variable="months" expression="CalculateMonths(years)"/>
+                </then>
+                <else>
+                    <if expression="choice = &quot;Days&quot; or choice = &quot;days&quot;">
+                        <then>
+                            <declare name="days" type="Real" array="False" size=""/>
+                            <assign variable="days" expression="CalculateDays(years)"/>
+                        </then>
+                        <else>
+                            <if expression="choice = &quot;Hours&quot; or choice = &quot;hours&quot;">
+                                <then>
+                                    <declare name="hours" type="Real" array="False" size=""/>
+                                    <assign variable="hours" expression="CalculateHours(years)"/>
+                                </then>
+                                <else>
+                                    <if expression="choice = &quot;Seconds&quot; or choice = &quot;seconds&quot;">
+                                        <then>
+                                            <declare name="seconds" type="Real" array="False" size=""/>
+                                            <assign variable="seconds" expression="CalculateSeconds(years)"/>
+                                        </then>
+                                        <else>
+                                            <output expression="&quot;INVALID INPUT&quot;" newline="True"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="CalculateDays" type="Real" variable="days">
+        <parameters>
+            <parameter name="years" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <declare name="days" type="Real" array="False" size=""/>
+            <assign variable="days" expression="years * 365"/>
+            <output expression="years &amp; &quot; years is about equal to &quot; &amp; days &amp; &quot; days&quot;" newline="True"/>
+        </body>
+    </function>
+    <function name="CalculateHours" type="Real" variable="hours">
+        <parameters>
+            <parameter name="years" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <declare name="hours" type="Real" array="False" size=""/>
+            <assign variable="hours" expression="years * 365 * 24"/>
+            <output expression="years &amp; &quot; years is about equal to &quot; &amp; hours &amp; &quot; hours&quot;" newline="True"/>
+        </body>
+    </function>
+    <function name="CalculateSeconds" type="Real" variable="seconds">
+        <parameters>
+            <parameter name="years" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <declare name="seconds" type="Real" array="False" size=""/>
+            <assign variable="seconds" expression="years * 365 * 24 * 60 * 60"/>
+            <output expression="years &amp; &quot; years is about equal to &quot; &amp; seconds &amp; &quot; seconds&quot;" newline="True"/>
+        </body>
+    </function>
+    <function name="CalculateMonths" type="Real" variable="months">
+        <parameters>
+            <parameter name="years" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <declare name="months" type="Real" array="False" size=""/>
+            <assign variable="months" expression="years * 12"/>
+            <output expression="years &amp; &quot; years is about equal to &quot; &amp; months &amp; &quot; months&quot;" newline="True"/>
+        </body>
+    </function>
+    <function name="GetAge" type="Real" variable="years">
+        <parameters/>
+        <body>
+            <declare name="years" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter how old you are in years&quot;" newline="True"/>
+            <input variable="years"/>
+        </body>
+    </function>
+    <function name="GetChoice" type="String" variable="choice">
+        <parameters/>
+        <body>
+            <declare name="choice" type="String" array="False" size=""/>
+            <output expression="&quot;Type in either Months, Days, Hours, or Seconds for the the unit the user wants to know their age in.&quot;" newline="True"/>
+            <input variable="choice"/>
+        </body>
+    </function>
+</flowgorithm>
