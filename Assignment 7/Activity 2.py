@@ -1,29 +1,25 @@
 def calculateDays(years):
     days = years * 365
-    displayResult(years, " years is about equal to ", days, " Days.")
     
     return days
 
 def calculateMonths(years):
     months = years * 12
-    displayResult(years, " years is about equal to ", months, " Months.")
     
     return months
 
 def calculateHours(years):
     hours = years * 365 * 24
-    displayResult(years, " years is about equal to ", hours, " Hours.")
     
     return hours
 
 def calculateSeconds(years):
     seconds = years * 365 * 24 * 60 * 60
-    displayResult(years, " years is about equal to ", seconds, " Seconds.")
     
     return seconds
 
-def displayResult(years, fromScale, result, toScale):
-    print(str(years) + fromScale + str(result) + toScale)
+def displayResult(years, result, label):
+    print(str(years) + " years is about equal to " + str(result) + " " + label + ".")
 
 def getAge():
     print("Enter how old you are in years")
@@ -48,18 +44,18 @@ years = getAge()
 choice = getChoice()
 if choice == "M" or choice == "m":
     months = calculateMonths(years)
-    calculateMonths()
+    displayResult(years, months, "months")
 else:
     if choice == "D" or choice == "d":
         days = calculateDays(years)
-        calculateDays()
+        displayResult(years, days, "days")
     else:
         if choice == "H" or choice == "h":
             hours = calculateHours(years)
-            calculateHours()
+            displayResult(years, hours, "hours")
         else:
             if choice == "S" or choice == "s":
                 seconds = calculateSeconds(years)
-                calculateSeconds()
+                displayResult(years, seconds, "seconds")
             else:
                 print("INVALID INPUT")
